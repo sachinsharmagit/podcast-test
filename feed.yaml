@@ -44,3 +44,9 @@ item:
     file: /audio/TFIT06.mp3
     duration: 00:00:34
     length: 350,500
+  - title: EP07-Feeling awesome after learning AI
+    description: I felt great after learning AI and thw ways it can make my life better.
+    published: Thu, 10 April 2023 18:00:00 GMT
+    file: /audio/TFIT07.mp3
+    duration: 00:00:43
+    length: 267,500
