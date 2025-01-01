@@ -11,14 +11,15 @@ jobs:
        with:
          python-version: '3.10'
      - name: Install Dependencies
-       run:
-          pip install pyyaml
+       run: |
+         python -m pip install --upgrade pip
+         pip install pyyaml
      - name: Run Feed Generator
        run: python feed.py
      - name: Push Repo
-       run: >
-         git config user.name sachinsharmagit \
-         git config user.email sachinsharma.follow@gmail.com \
-         git add . \
-         git commit -m "Modified Feed" \
+       run: |
+         git config user.name sachinsharmagit
+         git config user.email sachinsharma.follow@gmail.com
+         git add .
+         git commit -m "Modified Feed"
          git push
