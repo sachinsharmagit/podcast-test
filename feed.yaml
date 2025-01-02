@@ -50,3 +50,9 @@ item:
     file: /audio/TFIT07.mp3
     duration: 00:00:43
     length: 267,500
+  - title: EP08-Nice to learn github actions marketplace
+    description: github actions marketplace is a great way to automate and maeket your CI/CD examplar pipelines.
+    published: Thu, 11 May 2023 18:00:00 GMT
+    file: /audio/TFIT08.mp3
+    duration: 00:00:42
+    length: 262,400
